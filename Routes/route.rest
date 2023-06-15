@@ -1,0 +1,37 @@
+
+GET http://localhost:5000/users
+
+
+###
+
+GET http://localhost:5000/users/6482fdad9161cab7e251133e
+
+###
+
+
+POST http://localhost:5000/users
+
+Content-Type:application/json
+
+{
+ "fullname":"bsbbraveendhar",
+ "email":"gege"
+}
+
+###
+
+
+DELETE http://localhost:5000/users/6482fed2a9f54853e569d782
+
+
+###
+
+PATCH http://localhost:5000/users/6482fdad9161cab7e251133e
+
+
+"Content-Type: application/json"
+
+{
+ "fullname": "sanjuravi",
+
+}
