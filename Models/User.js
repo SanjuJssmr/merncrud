@@ -20,6 +20,9 @@ const userSchema = new mongoose.Schema({
         type: String,
 
     },
+    age: {
+        type: Number
+    },
     mobile: {
         type: Number,
         required: true,
